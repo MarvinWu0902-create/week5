@@ -1,0 +1,50 @@
+.nav {
+    width: 296px;
+    height: 100vh;
+    
+    .current-link{
+        position: relative;
+    }
+    .current-link.active::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 4px;
+        height: 32px;
+        border-left: 4px solid #198754;
+    }
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 42px;
+
+    a {
+        display: block;
+        width: 151px;
+        height: 40px;
+        background-image: url('../images/logo-ANSWER.svg');
+        text-indent: 101%;
+        overflow: hidden;
+    }
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/andychen.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.ps-32 {
+    padding-left: 32px;
+}
+
+.mb-363 {
+    margin-bottom: 363px;
+}
