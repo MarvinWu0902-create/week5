@@ -1,26 +1,10 @@
 .w30p{
   width: 30%;
 }
-.mb-6{
-  margin-bottom: 6px;
-}
-.mb-12{
-  margin-bottom: 12px;
-}
-.p-12{
-  padding: 12px;
-}
-.px-32{
-  padding: 0 32px;
-}
 
-.ptb-12-lr-16{
-  padding: 12px 16px;
-}
 .list-group-item{
   padding: 12px;
 }
-
 
 .list-group-item {
   &:first-child{
@@ -48,13 +32,4 @@
   background-image: url('../images/andychen.jpeg');
   background-size: cover;
   border-radius: 50%; 
-}
-.fz-12{
-  font-size: 12px;
-}
-.fz-14{
-  font-size: 14px;
-}
-.lh-2{
-  line-height: 2;
 }

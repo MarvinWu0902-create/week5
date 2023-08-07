@@ -13,7 +13,19 @@ a{
     padding:0 32px;
     margin-left: 296px;
 }
-
+.inon-size{
+    width: 24px;
+    height: 24px;
+}
+.lh-2{
+    line-height: 2;
+  }
+.fz-12{
+    font-size: 12px;
+  }
+.fz-14 {
+    font-size: 14px;
+}
 
 .ml-9{
     margin-left: 9px;
@@ -24,24 +36,34 @@ a{
 .ml-296{
     margin-left: 296px;
 }
+.mb-6{
+    margin-bottom: 6px;
+  }
 .mb-12{
     margin-bottom: 12px;
+}
+.mb-363 {
+    margin-bottom: 363px;
 }
 
 .mr-50{
     margin-right: 50px;
 }
-
+.p-12{
+    padding: 12px;
+  }
 .p-32{
     padding: 32px;
 }
-
-// .pl-32{
-//     padding-left: 32px;
-// }
-// .pr-32{
-//     padding-right: 32px;
-// }
+.px-32{
+    padding: 0 32px;
+  }
+.ps-32 {
+    padding-left: 32px;
+}
+.ptb-12-lr-16{
+    padding: 12px 16px;
+  }
 
 
 
